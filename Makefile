@@ -1,6 +1,6 @@
 CC=gcc
 LIBS=-lpthread
-FLAGS=-W -Wall -ansi 
+FLAGS=-W -Wall -ansi -std=c11
 SRC=$(wildcard *.c)
 OBJ=$(SRC:.c=.o)
 EXEC=test
